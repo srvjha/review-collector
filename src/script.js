@@ -5,8 +5,8 @@ const starRatings = document.querySelectorAll(".rating");
 const submitBtn = document.getElementById("submit-btn");
 const sortSelect = document.getElementById("sortReviews");
 
-const filledStar = "/filledstar.png";
-const emptyStar = "/star.png";
+const filledStar = "https://img.icons8.com/?size=96&id=qdQpy48X3Rjv&format=png";
+const emptyStar = "https://img.icons8.com/?size=96&id=19295&format=png";
 
 let allReviews = JSON.parse(localStorage.getItem("reviews")) || [];
 let countRatings = 0;
