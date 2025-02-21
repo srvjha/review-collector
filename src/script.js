@@ -5,8 +5,8 @@ const starRatings = document.querySelectorAll(".rating");
 const submitBtn = document.getElementById("submit-btn");
 const sortSelect = document.getElementById("sortReviews");
 
-const filledStar = "../public/filledstar.png";
-const emptyStar = "../public/star.png";
+const filledStar = "/filledstar.png";
+const emptyStar = "/star.png";
 
 let allReviews = JSON.parse(localStorage.getItem("reviews")) || [];
 let countRatings = 0;
